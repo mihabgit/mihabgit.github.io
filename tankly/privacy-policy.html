@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tankly Privacy Policy</title>
+<meta name="description" content="Privacy policy for Tankly, the fuel, mileage and service tracker by DewDrops.">
+<!--
+  Source: store/privacy-policy.md in github.com/mihabgit/tankly.
+  Live copy: https://mihabgit.github.io/tankly/privacy-policy.html (repo mihabgit/mihabgit.github.io).
+  Edit the source, copy it to the live repo, and keep it in step with store/data-safety.md and the Data safety form in Play Console.
+-->
+<style>
+  :root {
+    --bg: #f3f5f7;
+    --card: #ffffff;
+    --text: #0f172a;
+    --muted: #5b6472;
+    --accent: #ae550f;
+    --rule: #e3e7ec;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0b1118;
+      --card: #151c26;
+      --text: #e7ebf0;
+      --muted: #98a3b3;
+      --accent: #fdba74;
+      --rule: #253041;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0b1118;
+    --card: #151c26;
+    --text: #e7ebf0;
+    --muted: #98a3b3;
+    --accent: #fdba74;
+    --rule: #253041;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 32px 16px 64px;
+  }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 4px; }
+  h2 { font-size: 1.2rem; margin: 2em 0 0.4em; padding-top: 1em; border-top: 1px solid var(--rule); }
+  .meta { color: var(--muted); margin: 0 0 1.5em; }
+  .summary {
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: 12px;
+    padding: 4px 20px;
+  }
+  a { color: var(--accent); overflow-wrap: anywhere; }
+  ul { padding-left: 1.3em; }
+  li { margin: 0.3em 0; }
+  li > ul { margin: 0.3em 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Tankly Privacy Policy</h1>
+  <p class="meta">Tankly, by DewDrops · Effective 26 November 2026</p>
+
+  <p>Tankly is a fuel, mileage and service tracker for bikes and cars, made by DewDrops. This policy
+  explains what happens to the information you put into the app.</p>
+
+  <div class="summary">
+    <p><strong>In short:</strong> everything you enter stays on your phone. Tankly has no account, no ads,
+    no analytics and no tracking, and we never receive your data.</p>
+  </div>
+
+  <h2>What Tankly stores</h2>
+  <p>The app keeps the following on your phone:</p>
+  <ul>
+    <li><strong>Your vehicle:</strong> its name, number plate, type and starting odometer reading.</li>
+    <li><strong>Your entries:</strong>
+      <ul>
+        <li>Fill-ups: date, odometer, fuel, quantity, price and station.</li>
+        <li>Expenses.</li>
+        <li>Service reminders.</li>
+        <li>Paper expiry dates, such as tax token, fitness, insurance, licence and route permit.</li>
+        <li>If you use rider mode, your ride-sharing earnings, trips, hours, distance and costs.</li>
+      </ul>
+    </li>
+    <li><strong>Your settings:</strong> language, theme, units, reminder choices and any fuel prices you type in.</li>
+  </ul>
+  <p>All of this is stored only in Tankly's private storage on your phone, where other apps can't read it. It
+  is never sent to us or to anyone else. We have no server that receives it.</p>
+
+  <h2>What goes over the internet</h2>
+  <p><strong>Fuel prices.</strong> About once a day, when your phone is online, Tankly downloads the current
+  government fuel price list. It's a small public file hosted on GitHub. The download doesn't send any of your
+  entries or settings. Like any internet download, it does reveal some details to GitHub:</p>
+  <ul>
+    <li>your phone's IP address;</li>
+    <li>the phone's model and Android version, which Android includes automatically.</li>
+  </ul>
+  <p>GitHub handles these under the
+  <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub privacy statement</a>.
+  Tankly doesn't use these details, and we can't see who downloads the file.</p>
+  <p>The app doesn't connect to the internet for anything else.</p>
+
+  <h2>Backups and exports you make</h2>
+  <ul>
+    <li><strong>Settings → Back up to a file</strong> saves all your Tankly data to a file. <strong>Export to
+      CSV</strong> saves your fill-ups, expenses and earnings to a file.</li>
+    <li>Both files go wherever you choose: your phone, Google Drive, or another app you send them to. Once
+      saved there, the file is handled by that place's own terms and privacy policy.</li>
+    <li>Tankly never uploads these files itself.</li>
+    <li>The files aren't encrypted, and they include your number plate and any earnings, so keep them
+      somewhere private.</li>
+  </ul>
+
+  <h2>Android backup</h2>
+  <ul>
+    <li>If Android backup is turned on, your phone may include Tankly's data in its automatic backup to your
+      Google account. Your phone's settings control this, and Google runs the backup under its own
+      <a href="https://policies.google.com/privacy">privacy policy</a>.</li>
+    <li>We can't access it.</li>
+    <li>You can turn this off in your phone's backup settings.</li>
+  </ul>
+
+  <h2>Permissions</h2>
+  <ul>
+    <li><strong>Notifications:</strong> to remind you about papers that are about to expire and services that
+      are due. The reminders are worked out on your phone. You can say no, and Tankly will show reminders only
+      when you open it.</li>
+    <li><strong>Internet:</strong> only for the fuel price download described above.</li>
+  </ul>
+  <p>Tankly doesn't ask for your location, contacts, camera, photos, microphone or phone identifiers.</p>
+
+  <h2>What we don't do</h2>
+  <ul>
+    <li>No sign-up or account.</li>
+    <li>No advertising.</li>
+    <li>No analytics or crash reporting.</li>
+    <li>No selling or sharing of your data with anyone.</li>
+  </ul>
+
+  <h2>Keeping or deleting your data</h2>
+  <p>Your data stays on your phone until you delete it:</p>
+  <ul>
+    <li><strong>One item:</strong> delete any entry or reminder in the app.</li>
+    <li><strong>Everything:</strong> uninstall Tankly, or go to <em>Android Settings → Apps → Tankly → Storage
+      → Clear storage</em>.</li>
+    <li><strong>Copies elsewhere:</strong> delete any backup or CSV files you saved separately. An automatic
+      Android backup in your Google account can be deleted from your Google account settings.</li>
+  </ul>
+  <p>Because we never receive your data, there's nothing for us to delete on our side.</p>
+
+  <h2>Children</h2>
+  <p>Tankly is made for vehicle owners and riders, not for children under 13. It doesn't collect personal
+  information from anyone, children included.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If the app starts handling data differently, we'll update this page and change the date at the top before
+  that version of the app is released.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy or about Tankly: DewDrops ·
+  <a href="mailto:dewdropsdev@gmail.com">dewdropsdev@gmail.com</a></p>
+</main>
+</body>
+</html>
